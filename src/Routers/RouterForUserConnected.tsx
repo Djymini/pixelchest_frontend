@@ -1,13 +1,13 @@
 import {FC} from 'react';
 import {RouteType} from "../types/routeType";
-import HomePage from "../pages/HomePage";
-import LoginPage from "../pages/LoginPage";
-import GameDetailsPage from "../pages/GameDetailsPage";
-import StudioDetailsPage from "../pages/StudioDetailsPage";
+import HomePage from "../pages/main/HomePage";
+import LoginPage from "../pages/main/LoginPage";
+import GameDetailsPage from "../pages/main/GameDetailsPage";
+import StudioDetailsPage from "../pages/main/StudioDetailsPage";
 import {Route, Routes} from "react-router-dom";
 import LayoutNotConnected from "../layout/LayoutNotConnected";
-import UserSettingPage from "../pages/UserSettingsPage";
-import UserDashboardPage from "../pages/UserDashboardPage";
+import UserSettingPage from "../pages/main/UserSettingsPage";
+import UserDashboardPage from "../pages/main/UserDashboardPage";
 import LayoutConnected from "../layout/LayoutConnected";
 
 const RouterForUserConnected: FC<{}> = ({}) => {
